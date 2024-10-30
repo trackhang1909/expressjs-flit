@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // Array, Object
+
+    let arr = ["banana", "apple", "cherry", "date", "elderberry", "fig", "grape"];
+    let arr2 = [2, 1, 3];
+
+    // concat
+    // let arr3 = arr.concat(arr2);
+    // console.log(arr3);
+
+    // sort
+    // let arr4 = arr2.sort();
+    // console.log(arr4);
+
+    // splice
+    // let arr4 = arr.splice(1, 0, "watermelon", "kiwi");
+    // console.log("Gia tri duoc xoa la: ", arr4);
+    // console.log("Mang con lai la: ", arr);
+
+    // 0 | 1 | 2 | 3 | 4 | 5 | 6
+    // slice
+    // let arr4 = arr.slice(2, 4);
+    // console.log(arr4);
+    // console.log(arr);
+
+    // push
+    // let x = arr.push("honeydew");
+    // console.log("Index la: " + x);
+
+    // unshift
+    // let a = arr.unshift("kiwi");
+    // console.log("So phan tu la: " + a);
+
+    // pop
+    // let y = arr.pop();
+    // console.log("Phan tu bi xoa cuoi cung la: " + y);
+
+    // shift
+    // let z = arr.shift();
+    // console.log("Phan tu bi xoa dau tien la: " + z);
+
+    // i < 7
+    // for (let i = 0; i < arr.length; i++) {
+    //   console.log(i, arr[i]);
+    // }
+
+    // Object
+    const car = {
+      name: "BMW",
+      color: "Red",
+      address: {
+        city: "Hanoi",
+        district: "Cau Giay",
+        street: "Xuan Thuy"
+      }
+    }
+
+    const car2 = car
+    //
+    // const car2 = { ...car }
+    // const car2 = Object.assign({}, car);
+
+    console.log(car2);
+    console.log(car2 == car);
+
+  </script>
+</body>
+</html>
